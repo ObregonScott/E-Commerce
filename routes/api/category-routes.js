@@ -52,6 +52,7 @@ router.post('/', (req, res) => {
     });
 });
 
+<<<<<<< HEAD
 // Update a category by its `id` value
 router.put('/:id', (req, res) => {
 
@@ -74,6 +75,28 @@ router.put('/:id', (req, res) => {
 });
 
 // Delete a category by its `id` value
+=======
+// update a category by its `id` value
+router.put('/:id', (req, res) => {
+
+  Category.update(req.body, {
+    where: {
+      id: req.params.id
+    }
+  })
+    .then(dbCategoryData => {
+      if (!dbCategoryData[0]) {
+        res.status(404).json({ message: 'No category found with this id' });
+        return;
+      }
+      res.json(dbCategoryData);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+>>>>>>> develop
 router.delete('/:id', (req, res) => {
   
   Category.destroy({
