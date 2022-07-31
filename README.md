@@ -1,5 +1,8 @@
 
   # E-Commerce Back End
+  ![helpScreen](https://user-images.githubusercontent.com/98435396/182042708-61ee6719-b5e2-4798-ad68-45243b404a58.png)
+  
+https://youtu.be/sj-IxWtssck
   
   ## Table of Contents
   - [Description](#description)
@@ -56,4 +59,5 @@ for more information about MIT License click [link](https://opensource.org/licen
 
   You can find me on [GitHub](https://github.com/ObregonScott)
   Direct Link to this Repo [Repo](https://github.com/ObregonScott/E-Commerce)
+  Link to [Video](https://youtu.be/sj-IxWtssck)
   
