@@ -53,5 +53,7 @@ for more information about MIT License click [link](https://opensource.org/licen
   obregon.scott@gmail.com
   
   ### Links:
+
   You can find me on [GitHub](https://github.com/ObregonScott)
+  Direct Link to this Repo [Repo](https://github.com/ObregonScott/E-Commerce)
   
